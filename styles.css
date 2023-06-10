@@ -45,6 +45,14 @@
 	width: 30%;
 }
 
+.top h1{
+	text-align: center;
+}
+
+.top-para p{
+	text-align: center;
+}
+
 .quant-input-cont{
 	width: 50px;
 	display: flex;
