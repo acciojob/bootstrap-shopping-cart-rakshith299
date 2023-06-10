@@ -1,1 +1,53 @@
-/*  your css code here. If applicable */
+.image{
+	width: 90px;
+	height: 100px;
+}
+
+.product{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-right: 30px;
+}
+
+
+.whole{
+	background-color: #f7fbff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.each{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.quant{
+	border: 1px solid black;
+	text-align: center;
+}
+
+.summary{
+	border-top: 2px solid #5ea4f3;
+}
+
+.whole-card{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.button{
+	background-color: blue;
+	color: white;
+	border: none;
+	font-size: 15px;
+}
